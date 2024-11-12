@@ -1,0 +1,60 @@
+/* asterisk denotes for the entire html webpage */
+* {
+    margin: .5rem;
+    /* there is also px and em used for margin*/
+    font-family: Segoe UI;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgb(141, 176, 133);
+    width: 90%;
+    height: 100%;
+    margin-left: 80%;
+    margin-top: -0.6%;
+    position: fixed;
+    border: 50%;
+
+}
+
+.navlink {
+    background-color: rgb(236, 232, 232);
+    display: block;
+    padding: .5rem;
+    width: fit-content;
+    color: black;
+
+}
+
+body {
+    height: 10%;
+    background-color: rgb(236, 232, 232);
+    margin-top: -10px;
+    padding: .5rem;
+}
+
+header {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p, ul, ol {
+    font-size: 15px;
+}
+
+/* to make words have no whitespace before */
+u, i, b, p, header, h2, a, footer, p2 {
+    margin: 0;
+}
+
+#subtitle {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p2 {
+    font-size: 12px;
+}
